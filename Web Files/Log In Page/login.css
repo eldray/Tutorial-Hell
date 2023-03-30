@@ -34,7 +34,7 @@ body {
     width: 170%;
     height: 170px;
     content: '';
-    background-image: conic-gradient(transparent);
+    background-image: conic-gradient( transparent, transparent, transparent, #ee00ff);
     animation: rotate_border 6s linear infinite;
 }
 
@@ -43,7 +43,7 @@ body {
     width: 170%;
     height: 170px;
     content: '';
-    background-image: conic-gradient(transparent);
+    background-image: conic-gradient(transparent, transparent, transparent, #00ccff);
     animation: rotate_border 6s linear infinite;
     animation-delay: -3s;
 }
@@ -96,7 +96,7 @@ h2 {
 
 ::placeholder {
     font-size: 15px;
-    color: #0c1022;
+    color: #5b73e1;
     letter-spacing: 1px;
 }
 
