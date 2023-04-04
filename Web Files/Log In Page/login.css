@@ -144,3 +144,18 @@ h2 {
 .glowIcon {
     text-shadow: 0 0 10px #00ccff;
 }
+
+a::before {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+a::after {
+    color: bisque;
+    text-decoration: none;
+}
+
+a.hover {
+    color: #ee00ff;
+    border-bottom: 1px solid black;
+}
