@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Eclipse Animation</title>
+    <style>
+    body {
+            margin: 0;
+        }
+        
+        * {
+            animation: 10s linear infinite;
+        }
+        
+        .sky {
+            width: 100vw;
+            height: 100vh;
+            background-color: skyblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation-name: animate-sky;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sun,
+        .moon {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .sun {
+            background-color: gold;
+            animation-name: animate-sun;
+        }
+        
+        .moon {
+            background-color: slategray;
+            animation-name: animate-moon;
+        }
+        
+        @keyframes animate-sky {
+            50% {
+                background-color: black;
+            }
+        }
+        
+        @keyframes animate-sun {
+            50% {
+                box-shadow: 0 0 0.2em 0.3em white;
+            }
+        }
+        
+        @keyframes animate-moon {
+            from {
+                transform: translateX(-200px);
+            }
+            50% {
+                background-color: black;
+            }
+            to {
+                transform: translateX(200px);
+            }
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="sky">
+        <div class="sun"> </div>
+        <div class="moon"> </div>
+    </div>
+</body>
+
+</html>
