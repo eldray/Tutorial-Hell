@@ -27,7 +27,6 @@
             color: #fff;
             font-size: 2em;
             cursor: default;
-            font-weight: 600;
         }
         
         .navbar a {
@@ -45,7 +44,7 @@
         }
         
         .parallax {
-            position: absolute;
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -56,6 +55,8 @@
             position: absolute;
             top: 0;
             left: 0;
+            width: 100%;
+            pointer-events: none;
         }
         
         .text {
@@ -72,4 +73,10 @@
         
         .text h2:nth-child(2) {
             font-size: 2em;
+        }
+        
+        .text p {
+            font-size: 1em;
+            color: #fff;
+            font-weight: 300;
         }
