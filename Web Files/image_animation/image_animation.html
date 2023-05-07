@@ -10,30 +10,27 @@
 </head>
 
 <body>
-        <div id="image-track" data-mouse-down-at="0">
-            <img src="img/1.jpg" class="image">
-<img src="img/2.jpg" class="image">
-<img src="img/3.jpg" class="image">
-<img src="img/4.jpg" class="image">
-<img src="img/5.jpg" class="image">
-<img src="img/6.jpg" class="image">
-<img src="img/7.jpg" class="image">
-<img src="img/8.jpg" class="image">
-<img src="img/2.jpg" class="image">
-<img src="img/3.jpg" class="image">
-<img src="img/4.jpg" class="image">
-<img src="img/5.jpg" class="image">
-<img src="img/6.jpg" class="image">
-<img src="img/7.jpg" class="image">
-<img src="img/8.jpg" class="image">
-        </div>
+    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+        <img src="img/1.jpg" class="image" draggable="false">
+        <img src="img/2.jpg" class="image" draggable="false">
+        <img src="img/3.jpg" class="image" draggable="false">
+        <img src="img/4.jpg" class="image" draggable="false">
+        <img src="img/5.jpg" class="image" draggable="false">
+        <img src="img/6.jpg" class="image" draggable="false">
+        <img src="img/7.jpg" class="image" draggable="false">
+        <img src="img/8.jpg" class="image" draggable="false">
+        <img src="img/1.jpg" class="image" draggable="false">
+        <img src="img/2.jpg" class="image" draggable="false">
+        <img src="img/3.jpg" class="image" draggable="false">
+        <img src="img/4.jpg" class="image" draggable="false">
+        <img src="img/5.jpg" class="image" draggable="false">
+        <img src="img/6.jpg" class="image" draggable="false">
+        <img src="img/7.jpg" class="image" draggable="false">
+        <img src="img/8.jpg" class="image" draggable="false">
+    </div>
 
-<script>
-const track = document.getElementById("image-track");
-
-window.onmousedown = e =>{
-track.dataset mouseDownAt = e.clientx;
-}
-</script>
+    <script type="text/css" src="script.js">
+    </script>
 </body>
+
 </html>
