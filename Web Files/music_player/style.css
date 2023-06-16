@@ -44,7 +44,7 @@ width: 200px;
 .song-img{
 width: 200px;
 border-radius: 50%;
-border: 5px solid #fff;
+border: 5px solid #f53192;
 box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
 }
 
@@ -97,4 +97,10 @@ border-radius: 50%;
 color: #f53192;
 box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
 cursor: pointer;
+}
+
+.controls div:nth-child(2){
+tarnsform: scale(1.5);
+background: #f53192;
+color: #fff;
 }
