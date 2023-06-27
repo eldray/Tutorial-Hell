@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <metaname="viewport" content="width=device-width" , initial-scale="1.0">
+        <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">TRAVEL</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="sea waves.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>NEVER STOP</h2>
+            <h3>Exploring The World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, earum, molestiae consequatur explicabo sequi est in illum nulla officiis deleniti amet sint? Vero quasi optio dolore quas non commodi error.</p>
+            <a href="#">Explore</a>
+
+        </div>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="Images/facebook.png" alt="Facebook"> </a>
+            </li>
+            <li>
+                <a href="#"><img src="Images/twitter.png" alt="Twitter"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Images/instagram.png" alt="Instagram"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Images/youtube.png" alt="Youtube"> </a>
+            </li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+
+</body>
+<script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+
+    })
+</script>
+
+</html>
